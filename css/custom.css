@@ -34,6 +34,7 @@ h1 {
     font-size: 4rem;
     color: 
     #142559;
+    
   }
   .custom-mainword{
         
@@ -277,10 +278,7 @@ nav{
     position: absolute;
     left: 20px;
 }
-.footer-contact{
-    
-    right: 0px;
-}
+
   
 
    
@@ -300,7 +298,8 @@ nav{
     
 
     /* 컨텐츠 레이아웃 그리드 시스템(.custom-innerWrap) */
-
+    
+    
    
 }
 
@@ -324,18 +323,42 @@ nav{
         padding:0 20px;
     }
     .main{
-        padding: 120px 60px;
+        padding: 120px 110px;
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 3.2rem;
+        
       }
         
     h2{
-        font-size: 3rem;
+        font-size: 3.2rem;
         
       }
+    .footer{
+        padding-top: 30px;
+        
+      
+        font-size: 12px;
+        position: relative;
+    }
+    .about{
+        width: 100%;
+       
+    }
+    .about-left{
+        width: 100%;
+       
     
+    
+    }
+    .about-left img{
+        display: block;
+       margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        
+    }
 }
 
 
@@ -414,10 +437,17 @@ nav{
        
     }
     .project{
+    }
+    .footer{
+        padding-top: 30px;
+        font-size: 10px;
+        position: relative;
+    }
+    
         
 
    
         
     
 }
-   
+
