@@ -117,3 +117,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+window.onload = function() {
+    const header = document.getElementById("header");
+    window.onscroll = function() {
+        if (window.scrollY > 50) { 
+            header.classList.add("scrolled");
+        } else {
+            header.classList.remove("scrolled");
+        }
+    };
+  };
+
