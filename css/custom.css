@@ -12,6 +12,7 @@
 /* 윈도우 사이즈 출력 */
 #resolution{position:fixed;left:50%;top:50%;transform:translate(-50%, -50%);font-size:60px;color:red;}
 #header {
+    margin: 0 auto;
     width: 100%;
     /* height: 100px; */
   
@@ -23,6 +24,7 @@
     position: fixed;
     top: 0;
     z-index: 2000;
+   
   
   }
   .scrolled {
@@ -114,8 +116,8 @@ nav{
     
 }
 .about-right{
-    padding: 30px;
-    border: 3px dashed 
+    padding: 40px;
+    border: 4px dashed 
     #D6C2F2;
 }
 .about-right-inner{
@@ -124,7 +126,8 @@ nav{
     
 }
 .about-right-inner p{
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 600;
 }
 .skills{
     
@@ -295,7 +298,8 @@ nav{
 }
 .sn-editor{
     position: absolute;
-    left: 20px;
+    right: 20px;
+    bottom: 10px;
 }
 
 /* .info-left .info, .info-right .info{
@@ -428,7 +432,10 @@ nav{
     .about-right{
       
         
-        padding: 40px;
+        padding: 30px;
+    }
+    .about-right p{
+        font-size:20px;
     }
     .project-contents .card{
     
@@ -513,6 +520,9 @@ nav{
         width:100%;
         height: 100%;  
        padding: 20px;
+    }
+    .about-right p{
+        font-size:17px;
     }
     .skills{
         width: 100%;
